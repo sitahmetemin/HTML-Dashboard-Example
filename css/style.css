@@ -50,6 +50,9 @@ body {
 
 .menu-item:hover {
     color: #ffffff;
+    border-bottom: 5px solid #ffffff;
+    transition: 0.3s;
+    border-radius: 5px;
 }
 
 .page-header {
@@ -164,32 +167,36 @@ body {
     color: #ffffff !important;
 }
 
+.bg-warning {
+    background-color: #ef6c00 !important;
+    color: #fff !important;
+}
+
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
-    z-index: 1;
     top: 0;
-    left: 0;
+    left: -300px;
     background-color: #ffffff;
-    overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
+    box-shadow: 10px 10px 40px #000000;
+    transition: 0.5s;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     color: #4f5684;
-    display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    opacity: 0.5;
+    border-left: 10px solid #3ca0eb ;
 }
+
 
 .sidenav .closebtn {
     position: absolute;
@@ -243,6 +250,7 @@ body {
         background-color: #ffffff;
         width: 40%;
         margin: 10px;
+        box-shadow: 5px 5px 5px #b0bec5;
     }
 }
 
@@ -294,4 +302,16 @@ body {
 
 .card-body {
     padding: 25px;
+}
+
+.icon {
+    background-color: #3ca0eb;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.side-bar-menu-item {
+    display: flex;
+    align-items: center;
 }

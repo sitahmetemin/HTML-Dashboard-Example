@@ -1,7 +1,14 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.left = "0px";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.left = "-300px";
 }
+
+// function openLeftMenu() {
+//     document.getElementById("mySidenav").style.display = "block";
+// }
+// function closeLeftMenu() {
+//     document.getElementById("mySidenav").style.display = "none";
+// }
