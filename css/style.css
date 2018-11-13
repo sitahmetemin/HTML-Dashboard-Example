@@ -97,10 +97,15 @@ body {
     text-decoration: none;
     border: 1px solid;
     border-radius: 12px;
-    padding: 7px;
+    padding: 10px;
 }
 
 .btn:hover {
+    box-shadow: 3px 3px 3px #78909c;
+    transition: 0.2s;
+}
+
+.btn:active {
     opacity: 0.7;
 }
 
@@ -134,6 +139,12 @@ body {
     color: #ffffff;
 }
 
+.btn.btn-warning {
+    background-color: #ef6c00;
+    border-color: #ef6c00;
+    color: #ffffff;
+}
+
 .btn.btn-danger-o {
     background-color: transparent;
     border-color: #f44336;
@@ -144,7 +155,7 @@ body {
     font-size: 20px;
 }
 
-.btn.btn.lg {
+.btn.btn-lg {
     font-size: 30px;
 }
 
@@ -285,15 +296,27 @@ body {
 }
 
 .card-image {
+    position: relative;
     width: 100%;
 }
 
 .card-image > img {
+
     width: 100%;
 }
 
 .card-body {
     padding: 25px;
+}
+
+.card-img-info {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
 }
 
 .icon {
