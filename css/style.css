@@ -296,8 +296,19 @@ body {
 }
 
 .card-image {
+    text-align: center;
     position: relative;
     width: 100%;
+    min-height: 30%;
+    background: #2196f3;
+}
+
+.card-image > p {
+    width: 80%;
+    background: #2196f3;
+    text-align: center;
+    color: #fff;
+    padding: 10%;
 }
 
 .card-image > img {
@@ -311,7 +322,6 @@ body {
 
 .card-img-info {
     position: absolute;
-    top: 75%;
     left: 0;
     right: 0;
     bottom: 0;
