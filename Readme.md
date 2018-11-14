@@ -1,6 +1,6 @@
 ## HTML CSS Dashboad Örneği
 **Resim:**
-![alt text](https://i.imgur.com/0DJu7WC.png "To-Do App Şablonu")
+![alt text](https://i.imgur.com/PtBuNHC.png "To-Do App Şablonu")
 ![alt text](https://i.imgur.com/Cl6ql1j.png "To-Do App Şablonu")
 
 **Açıklama:**
